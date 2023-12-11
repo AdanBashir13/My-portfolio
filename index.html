@@ -3,29 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
     <title>My Website</title>
 </head>
 <body>
-    <nav>
-        <a href="#">Burgers</a>
-        <a href="#">Pizzas</a>
-        <a href="#">Chicken</a>
-        <a href="#">Desserts</a>
-        <a href="#">Menu</a>
-    </nav>
-    <img src="images/logo.png" alt="logo">
-
-    <h1>NEW EXCITING ARRIVALS</h1>
-    <br>
-
-    <div>
-        <h2>SPICY CHICKEN BURGER</h2>
-        <h3>Dare to Defy</h3>
-        <a href="#">Learn More></a>
-        <br>
-        <a href="#"><img src="images/chicken.png" alt="a spicy chicken burger"></a>
+    <div class="navbar">
+        <nav>
+            <a href="#">Burgers</a>
+            <a href="#">Pizzas</a>
+            <a href="#">Chicken</a>
+            <a href="#">Desserts</a>
+            <a href="#">Menu</a>
+        </nav>
     </div>
+
     <br>
+
+    <div class='logo'>
+    <img src="images/logo.png" alt="logo">
+    </div>
+
+    <h1>NEW EXCITING ARRIVALS!</h1>
+    <br>
+    
+    <div class="center">
+        <div class="spicy">
+            <h2>SPICY CHICKEN BURGER</h2>
+            <h3>Dare to Defy</h3>
+            <a class="padd" href="#">Learn More></a>
+            <br>
+            <a href="#"><img src="images/chicken.png" alt="a spicy chicken burger"></a>
+        </div>
+    <br>
+
     <div>
         <h2>DOUBLE CHEESE PIZZA</h2>
         <h3>It ain't easy being so cheesy</h3>
@@ -49,41 +59,155 @@
         <br>
         <a href="#"><img src="images/cream.png" alt="a strawberry ice cream"></a>
     </div>
-    <br>
-    <div>
-        <h2>BURGER SPOT</h2>
-        <h3>The Menu</h3>
-        <a href="#">Learn More></a>
-        <br>
-        <a href="#"><img src="images/burger-menu.jpg" alt="The burger menu"></a>
     </div>
     <br>
+    
+    <h1>RESTURANT MENU</h1>
+    <div class="bs"></div>
+    <h2>BURGER SPOT</h2>
+    </div>
+
     <div>
-        <h2>PIZZARIA</h2>
-        <h3>The Menu</h3>
-        <a href="#">Learn More></a>
-        <br>
-        <a href="#"><img src="images/pizza-menu.jpg" alt="The pizza menu"></a>
+        <table>
+            <thead>
+                <tr>
+                    <td>FOOD ITEM</td>
+                    <td>AMOUNT (ksh)</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Chicken Burger</td>
+                    <td>850</td>
+                </tr>
+                <tr>
+                    <td>Ham Burger</td>
+                    <td>750</td>
+                </tr>
+                <tr>
+                    <td>Cheese Burger</td>
+                    <td>650</td>
+                </tr>
+                <tr>
+                    <td>Double Tower</td>
+                    <td>950</td>
+                </tr>
+                <tr>
+                    <td>Colonel Burger</td>
+                    <td>900</td>
+                </tr>
+            </tbody>
+        </table>
     </div>
     <br>
-    <div>
-        <h2>FINGER LICKIN GOOD</h2>
-        <h3>The Menu</h3>
-        <a href="#">Learn More></a>
-        <a href="#"><img src="images/chicken-menu.jpg" alt="The Chicken menu"></a>
-    </div>
+    <h2>PIZZARIA</h2>
     <br>
     <div>
-        <h2>SUGAR RUSH</h2>
-        <h3>The Menu</h3>
-        <a href="#">Learn More></a>
-        <br>
-        <a href="#"><img src="images/dessert-menu.jpg" alt="The deseert menu"></a>
+        <table class="pizzaria">
+            <thead>
+                <tr>
+                    <td>FOOD ITEM</td>
+                    <td>AMOUNT (ksh)</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Pepperoni Pizza</td>
+                    <td>1200</td>
+                </tr>
+                <tr>
+                    <td>Chicken Tikka</td>
+                    <td>1400</td>
+                </tr>
+                <tr>
+                    <td>Chicken Barbecue</td>
+                    <td>1250</td>
+                </tr>
+                <tr>
+                    <td>Cheese Pizza</td>
+                    <td>1600</td>
+                </tr>
+                <tr>
+                    <td>Pinapple Pizza</td>
+                    <td>1500</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <br>
+    <h2>FINGER LICKING GOOD</h2>
+    <br>
+    <div>
+        <table class="flg">
+            <thead>
+                <tr>
+                    <td>FOOD ITEM</td>
+                    <td>AMOUNT (ksh)</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Drumsticks</td>
+                    <td>300</td>
+                </tr>
+                <tr>
+                    <td>Wings</td>
+                    <td>450</td>
+                </tr>
+                <tr>
+                    <td>Sticky Wings</td>
+                    <td>700</td>
+                </tr>
+                <tr>
+                    <td>Lunchbox</td>
+                    <td>800</td>
+                </tr>
+                <tr>
+                    <td>Family Bucket</td>
+                    <td>1400</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <br>
+    <h2>SUGAR RUSH</h2>
+    <br>
+    <div>
+        <table class="sr">
+            <thead>
+                <tr>
+                    <td>FOOD ITEM</td>
+                    <td>AMOUNT (ksh)</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>strawberry Sundae</td>
+                    <td>300</td>
+                </tr>
+                <tr>
+                    <td>CHOCO-BERRY Cone</td>
+                    <td>500</td>
+                </tr>
+                <tr>
+                    <td>Bubblegum Ice Cream</td>
+                    <td>400</td>
+                </tr>
+                <tr>
+                    <td>Mint</td>
+                    <td>340</td>
+                </tr>
+                <tr>
+                    <td>Vanilla Choco</td>
+                    <td>280</td>
+                </tr>
+            </tbody>
+        </table>
     </div>
     <br>
     <footer>
         <nav>
-            <ul>
+            <ul class="Explore">
            <li><a href="#"><strong>Explore</strong></a></li>
             <li><a href="#">Burgers</a></li>
             <li><a href="#">Pizzas</a></li>
@@ -93,7 +217,7 @@
         </nav>
         <br>
         <nav>
-            <ul>
+            <ul class="orders">
            <li><a href="#"><strong>Orders</strong></a></li>
             <li><a href="#">Manage your orders</a></li>
             <li><a href="#">Glovo.com</a></li>
@@ -101,8 +225,8 @@
         </nav>
         <br>
         <nav>
-            <ul>
-           <li><a href="#"><strong>About us</strong></a></li>
+            <ul class="about-us">
+           <li><a href="#" ><strong>About us</strong></a></li>
             <li><a href="#">History</a></li>
             <li><a href="#">Founder</a></li>
             <li><a href="#">Recepies</a></li>
@@ -116,7 +240,9 @@
         <br>
 
         <p>Copyright&copy;Los Pollos Hermanos 2023</p>
-
+        <p>Terms of use</p>
+        <p>Sitemap</p>
+        <p>Kenya</p>
     </footer>
 
 </body>

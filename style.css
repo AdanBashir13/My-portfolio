@@ -1,8 +1,109 @@
 body{
-    background: white;
+    background-color: gold;
 }
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+.navbar a{
+    margin-right: 100px;
+    margin-left: 172px;
+    font-weight: bold;
+    font-size: 25px;
+    color: gold;
+    text-decoration: none;
+    font-family: Helvetica;
+    
+}
+
+.navbar{
+    background-color: black;
+    padding: 40px;
+}
+
+.navbar a:hover{
+    color: gray;
+
+}
+
+div.logo{
+    text-align: center;
+    
+}
+
+h1{
+    text-align: center;
+    font-family: Helvetica;
+    font-size: 60px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+}
+
+div.logo{
+    text-align: center;
+}
+
+div.center{
+    text-align: center;
+}
+
+h2{
+    font-family: Helvetica;
+    font-size: 40px;
+    margin: 40px;
+}
+
+h3{
+    text-align: center;
+    font-family: Helvetica;
+    font-size: 30px;
+    margin: 20px;
+}
+
+table{
+    border: thick solid black;
+    border-radius: 15px;
+    width: 1000px;
+    background-image: url(images/background.jpg);
+    background-color: navajowhite;
+    font-weight: bold;
+    margin-left: 15px;
+
+}
+
+td{
+    padding: 20px;
+    font-size: 25px;
+    font-family: Helvetica;
+    font-weight: bold;
+    color: gold;
+    text-align: center;
+    padding: 40px;
+}
+
+
+footer{
+    background-color: gray;
+}
+
+
+
+table.pizzaria{
+    background-image: url(images/pizzabg.jpg);
+    margin-left: 15px;
+
+}
+
+table.flg{
+    background-image: url(images/chickenbg.jpg);
+    margin-left: 15px;
+}
+
+table.sr{
+    background-image: url(images/dessertsbg.jpg);
+    margin-left: 15px;
 }
