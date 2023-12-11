@@ -25,7 +25,7 @@ body{
 }
 
 .navbar a:hover{
-    color: gray;
+    color: white;
 
 }
 
@@ -51,10 +51,11 @@ div.center{
     text-align: center;
 }
 
-h2{
+h2 {
     font-family: Helvetica;
     font-size: 40px;
     margin: 40px;
+    text-decoration: none;
 }
 
 h3{
@@ -67,11 +68,12 @@ h3{
 table{
     border: thick solid black;
     border-radius: 15px;
-    width: 1000px;
+    width: 600px;
     background-image: url(images/background.jpg);
     background-color: navajowhite;
     font-weight: bold;
     margin-left: 15px;
+    padding: 20px;
 
 }
 
@@ -86,24 +88,67 @@ td{
 }
 
 
-footer{
-    background-color: gray;
-}
-
-
-
 table.pizzaria{
     background-image: url(images/pizzabg.jpg);
     margin-left: 15px;
-
+    margin-right: 15px;
+    padding: 20px;
+    
 }
 
 table.flg{
     background-image: url(images/chickenbg.jpg);
     margin-left: 15px;
+    padding: 20px;
 }
 
 table.sr{
     background-image: url(images/dessertsbg.jpg);
     margin-left: 15px;
+    padding: 20px;
+    
+}
+
+footer{
+    background-color: gray;
+
+}
+
+ul a, a{
+    text-decoration: none;
+    font-size: 20px;
+    color: gold;
+    font-weight: bold;
+}
+
+section ul{
+    display: flex
+
+}
+
+div.foot p{
+    color: gold;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#flex{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+
+h2:hover{
+    color: white;
+}
+
+#flx{
+    display: flex;
+    flex-wrap: wrap;
+    overflow: auto;
+}
+ 
+p .find{
+    color: gold;
 }
